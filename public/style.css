@@ -1,0 +1,40 @@
+#red{
+    color:red;
+}
+
+#blue{
+    color:blue;
+}
+
+#orange{
+    color:orange;
+}
+
+#green{
+    color:green;
+}
+
+#yellow{
+    color:yellow;
+}
+
+.color-title{
+    font-weight:normal;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+html{
+    background-color:rgb(2, 249, 10)
+}
+
+h1{
+    color:blue;
+}
+
+#h2{
+    color:fuchsia
+}
