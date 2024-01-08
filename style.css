@@ -4,17 +4,25 @@
 }
 
 html{
-    background:#ff8000;
+    background:#7BD3EA;
 }
 
 .links{
-    color:rgb(255, 230, 0)
+    color:#F6D6D6;
+}
+
+h1{
+    color:#0c07a2f4
+}
+
+h2{
+    color:#0a02f6f4
 }
 
 ul{
-    color:rgb(23, 251, 2);
+    color:#A1EEBD;
 }
 
 ol{
-    color: rgb(81, 255, 0);
+    color: #A1EEBD;
 }
