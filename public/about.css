@@ -1,0 +1,15 @@
+html{
+    background:aqua;
+}
+
+h1{
+    color:blue
+}
+
+#Important_info{
+    color:rgb(25, 25, 124);
+}
+
+#Least_Important_info{
+    color: rgb(92, 92, 194);
+}

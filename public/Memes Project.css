@@ -1,0 +1,19 @@
+html{
+    background: black;
+    color: white;
+    text-align:center;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+
+#Expectation{               
+    height: 300px;
+    width: 300px;
+}
+#Reality{
+    height:300px;
+    width:300px;
+}
+

@@ -1,0 +1,37 @@
+.image{
+   height: 200px;
+   border-top: #f99588 solid 2.5px;
+   border-left: #f99588 solid 2.5px;
+   border-right: #f99588 solid 5px;
+   border-bottom: #f99588 solid 5px;
+}
+
+#Top_Tip{
+    color:rgb(46, 33, 130)
+}
+
+html{
+    background:#7BD3EA;
+}
+
+.links{
+    color:#f99588;
+}
+
+h1{
+    color:#0c07a2f4
+}
+
+h2{
+    color:#0a02f6f4
+}
+
+ul{
+    color:#02fc5e;
+   
+}
+
+ol{
+    color:#01fd5e;
+    
+}
