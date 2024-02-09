@@ -1,0 +1,46 @@
+.image{
+    height: 200px;
+    border-top: #f99588 solid 2.5px;
+    border-left: #f99588 solid 2.5px;
+    border-right: #f99588 solid 5px;
+    border-bottom: #f99588 solid 5px;
+ }
+ 
+ #Top_Tip{
+     font-size: 2em;
+     color:rgb(46, 33, 130)
+ }
+ 
+ html{
+     text-align: center;
+     background:#7BD3EA;
+ }
+ 
+ .links{
+     font-size: 2em;
+     color:#f99588;
+ }
+ 
+ h1{
+     font-family: 'Satisfy', cursive;
+     font-weight: bold;
+     font-size: 5em;
+     color:#0c07a2f4
+ }
+ 
+ h2{
+     font-size: 3em;
+     color:#0a02f6f4
+ }
+ 
+ 
+ 
+ ul{
+     color:#02fc5e;
+ }
+ 
+ ol{
+     color:#01fd5e;
+ }
+ 
+     

@@ -1,0 +1,43 @@
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:20px;
+}
+
+.pricing-plan{
+    flex: 1 1 0;
+    background:whitesmoke;
+    border-radius: black 3% ;
+    text-align: center;
+    
+}
+
+.plan-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.plan-price{
+    font-weight: bold;
+    font-size:larger
+}
+
+li{
+    padding:5px;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    list-style:none;
+}
+
+button{
+    margin: 20px;
+    padding:10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: orangered;  
+    border: none;  
+}
