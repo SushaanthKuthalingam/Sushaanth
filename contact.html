@@ -1,25 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-      <title>
-        Contact Me
-      </title>
-                <link rel="stylesheet" href="./contact.css">
-  </head>
-  <body>
-    <h1>
-      Contact Me
-    </h1>
+<head>
+  <title>Sushaanth Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .jumbotron{
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      color : black ; 
+      height: 1000px;
+    }
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+
+    
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="./index.html">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron ">
+  <div class="container">
+    <h1>Contact Me</h1>      
                             <hr>
-    <h2>
-      Gmail:SushaanthKuthalingam@gmail.com
-    </h2>
-    <h4>
-      Tel:N.A
-    </h4>
-    <h4>
-      Address:N.A
-    </h4>
-  </body>
+      <h2>Gmail Address : sushaanthkuthalingam@gmail.com</h2>
+          <h3>Phone no: N/A</h3>
+          <h3>Physical Address : N/A</h3>
+  </div>
+</div>
+  
+
+
+
+
+</body>
 </html>

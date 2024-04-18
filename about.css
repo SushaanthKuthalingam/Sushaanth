@@ -1,16 +1,18 @@
-html{
-    background:aqua;
-}
 
-h1{
-    color:blue
-}
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color : black
 
-#Important_info{
-    color:rgb(25, 25, 124);
-    
-}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
-#Least_Important_info{
-    color: rgb(92, 92, 194);
-}

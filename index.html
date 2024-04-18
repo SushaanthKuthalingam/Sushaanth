@@ -1,187 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-
-            <title>
-                Sushaanth's Portfolio
-            </title>
-
-                <link rel="stylesheet" href="./style.css">
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-                
-
-    </head>
-
-    <body>
-
-        
-        <h1> 
-            Sushaanth's Portfolio 
-        </h1>
-        
-            <p> 
-                <h2>
-                     I'm a Web Developer
-                </h2>
-            </p>
-
-
-                                    <hr>
-
-
-            <p id="Top_Tip">                        
-                Top Tip:Click on images or on the headings to open the project.
-            </p>                        
-            
-                                    <hr>
-
-
-
-        <ol>
-
-            <li>
-                <h3>                       
-                    <a class="links" href="./Data/public/Movie Ranking Project.html">
-                        Movie Ranking Project
-                    </a>
-                </h3>    
-                    <a class="links" href="./Data/public/Movie Ranking Project.html">
-                      <img class="image" src="./Data/images/Best Movie Project.PNG" height="200" alt="Project picture">
-                    </a>
-
-
-            </li>
-
-                               
-                                    <hr>
-
-
-            <li>                        
-                <h3>    
-                    <a class="links" href="./Data/public/Birthday Party Invitation Project.html">
-                        Birthday Invitation Project
-                    </a>
-                </h3>
-                    <a class="links" href="./Data/public/Birthday Party Invitation Project.html">     
-                      <img class="image"  src="./Data/images/Birthday Invite Project.PNG" height= "200"alt="Project Image">
-                    </a>    
-            </li>
-
-                                    
-                                    <hr>
-
-
-            <li>                        
-                <h3>
-                    <a class="links" href="./Data/public/Color Vocab Project.html">
-                        Spanish Color Vocab Project
-                    </a>
-                </h3>
-                    <a class="links" href="./Data/public/Color Vocab Project.html">
-                      <img class="image" src="./Data/images/Spanish Color Vocab Project.PNG" alt="Project Image" > 
-                    </a>
-
-
-                                    <hr>
-
-            
-            <li>
-                <h3>
-                    <a class="links" href="./Data/public/Memes Project.html">
-                        Memes Project
-                    </a>
-                </h3>
-                    <a class="links" href="./Data/public/Memes Project.html">
-                        <img class="image" src="./Data/images/Memes Project.PNG" alt="Project Image">
-                    </a>
-            </li>
-
-                                    <hr>
-
-
-            <li>
-                <h3>
-                    <a class="links" href="./Data/public/The Flag Of Laos Project.html">
-                        The Flag Of Laos Project
-                    </a>
-                </h3>
-                    <a class="links" href="./Data/public/The Flag Of Laos Project.html">
-                        <img class="image" src="./Data/images/The Flag Of Laos Project.PNG" alt="Project Image">
-                    </a>
-            </li>
-
-
-                                    <hr>
-
-                    
-            <li>
-                <h3>
-                    <a class="links" href="./Data/public/Web Design Agency Project.html">
-                        The Web Design Agency Project
-                    </a>
-                </h3>
-                    <a href="./Data/public/Web Design Agency Project.html">
-                        <img class="image" src="./Data/images/The Web Design Agency Project.PNG" alt="Project Image">
-                    </a>
-            </li>  
-                                    <hr>
-            <li>
-                <h3>
-                    <a href="./Data/public/FlexBox Pricing Table Project.html" class ="links">
-                        FlexBox Pricing Table Project
-                    </a>
-                </h3>
-                    <a href="./Data/public/FlexBox Pricing Table Project.html">
-                        <img src="./Data/images/FlexBox Pricing Table.PNG" alt="Project image" class="image">
-                    </a>
-            </li>   
-            
-            
-                                    <hr>
-
-                <li>
-                    <h3>
-                        <a href="./Data/public/Mondrain Painting Project.html" class="links">
-                            Mondrain Painting Project
-                        </a>
-                    </h3>                    
-                        <a href="./Data/public/Mondrain Painting Project.html">
-                            <img src="./Data/images/Modrain Painting Project.PNG" alt="Project image" class="image">
-                        </a>
-                </li>                     
-            
-
-
-                                    <hr>
-
-            
-            </ol>
-            <ul>                  
-                <li>
-                    <h4>
-                        <a class="links" href="./Data/public/contact.html">
-                            Contact Me
-                        </a>
-                    </h4>
-                </li>
-
-                                    <hr>
-
-                <li>                    
-                    <h4>
-                        <a class="links" href="./Data/public/about.html">
-                            About Me
-                        </a>
-                    </h4>
-                </li>
-
-                </ul> 
-                
+<head>
+  <title>Sushaanth Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
     
-        </body>           
-               
+    .jumbotron{
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      color : black
+    }
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      padding: 25px;
+    }
 
+    
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="./index.html">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Sushaanth Portfolio</h1>      
+    <p>Hello World!!!! I Am A Web Developer & Designer</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>My Works</h3>
+  <h4>Click On The Image To View The Projects</h4>
+                            <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Movie Ranking Project Project</p>
+      <a href="./Movie Ranking Project.html">
+        <img src="../images/Best Movie Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Birthday Invitation Project</p>
+      <a href="./Birthday Party Invitation Project.html">
+            <img src="../images/Birthday Invite Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+        </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Memes Project</p>
+        <a href="./Memes Project.html">
+            <img src="../images/Memes Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+        </a>
+    </div>
+    <div class="col-sm-3">
+      <p>Spanish Color Vocab Project</p>
+      <a href="./Color Vocab Project.html">
+            <img src="../images/Spanish Color Vocab Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>The Flag Of Laos Project</p>
+      <a href="./The Flag Of Laos Project.html">
+            <img src="../images/The Flag Of Laos Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+      </a>      
+    </div>
+    <div class="col-sm-3"> 
+      <p>The Web Design Agency Project</p>
+      <a href="./Web Design Agency Project.html">
+            <img src="../images/The Web Design Agency Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+       </a>     
+    </div>
+    <div class="col-sm-3"> 
+      <p>FlexBox Pricing Table Project</p>
+      <a href="./FlexBox Pricing Table Project.html">
+            <img src="../images/FlexBox Pricing Table.PNG" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <p>Modrain Painting Project</p>
+      <a href="./Mondrain Painting Project.html">
+            <img src="../images/Modrain Painting Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+
+      <div class="col-sm-3"> 
+        <p>TinDog Startup Website Project</p>
+        <a href="./TinDog.html">
+              <img src="../images/TinDog Startup Website.PNG" class="img-responsive" style="width:100%" alt="Image">
+        </a>
+      </div>
+      <div class="col-sm-3"> 
+        <p>About Myself Project</p>
+        <a href="./About Myself Project.html">
+              <img src="../images/About Myself Project.PNG" class="img-responsive" style="width:100%" alt="Image">
+        </a>
+      </div>
+
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>By Sushaanth </p>
+</footer>
+
+</body>
 </html>
